@@ -5,8 +5,7 @@ import ThemeSwitcher from "./ThemeSwitcher";
 import { Button } from "../ui/button";
 import NavItems from "./NavItems";
 import MobileNav from "./MobileNav";
-
-import Logo from "../ui/Logo";
+import Logo from "./Logo";
 
 const Header = () => {
   return (

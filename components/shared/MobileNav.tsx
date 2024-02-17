@@ -3,9 +3,10 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import menuIcon from "../../assets/icons/menu.svg";
 
 import Image from "next/image";
-import Logo from "../ui/Logo";
+
 import NavItems from "./NavItems";
 import { Separator } from "../ui/separator";
+import Logo from "./Logo";
 
 const MobileNav = () => {
   return (
