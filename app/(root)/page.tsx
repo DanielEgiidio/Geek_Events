@@ -42,7 +42,7 @@ export default function Home() {
             alt="hero"
             width={1000}
             height={1000}
-            className="w-[50vw] sm:max-h-[70vh] lg:max-h-[90vh] xl:max-h-[65vh] object-cover rounded-md lg:mt-10"
+            className="w-[50vw] sm:max-h-[70vh] lg:max-h-[90vh] xl:max-h-[65vh] object-cover rounded-md lg:mt-10 ring-1 ring-gray-300"
           />
         </div>
       </section>
