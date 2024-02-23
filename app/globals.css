@@ -228,6 +228,9 @@ body {
   .toggle-switch {
     @apply bg-gray-300 !important;
   }
+  .dark {
+    @apply bg-[#202124] !important;
+  }
 }
 
 /* ========================================== CLERK STYLES */

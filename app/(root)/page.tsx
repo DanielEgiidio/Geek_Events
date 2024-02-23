@@ -16,7 +16,7 @@ import {
 export default function Home() {
   return (
     <>
-      <section className="bg-primary-50 bg-dotted-pattern bg-contain py-5 items-center md:py-10">
+      <section className="bg-primary-50 dark: dark:dark bg-dotted-pattern bg-contain py-5 items-center md:py-10">
         <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
           <div className="flex flex-col justify-center gap-8">
             <h1 className="h1-bold">
@@ -27,7 +27,11 @@ export default function Home() {
                 Aprenda com especialistas e eleve seus projetos a novos
                 patamares 🚀
               </p>
-              <Button className="button w-full sm:w-fit" size="lg" asChild>
+              <Button
+                className="button w-full sm:w-fit dark:text-white"
+                size="lg"
+                asChild
+              >
                 <Link href="#events">Vivenciar Agora</Link>
               </Button>
             </h1>
